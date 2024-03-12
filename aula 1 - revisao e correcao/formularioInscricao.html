@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Inscrição</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 50%;
+    margin: 50px auto;
+  }
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .button-concordo {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px; /* Border radius is set here */
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .button-concordo:hover {
+    background-color: #0056b3;
+  }
+  .privacy-policy {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <form action="/submit-email" method="post">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+    
+    <div class="privacy-policy">
+      Ao clicar em Concordo, você concorda com a <a href="/politica-de-privacidade">Política de Privacidade</a>.
+    </div>
+    
+    <button type="submit" class="button-concordo">Concordo</button>
+  </form>
+</div>
+</body>
+</html>
