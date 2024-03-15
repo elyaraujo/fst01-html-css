@@ -3,6 +3,12 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
+
+
+.google{
+
+}
+
 .container-google{
     display: flex;
     flex-direction: column;
@@ -14,6 +20,9 @@
 
 }
 .input-search input{
+    display: block;
+    margin: 0, auto;
+    margin-top: 20px;
     width: 500px;
     border: none;
     border-radius: 20px;
@@ -31,6 +40,10 @@
 .container-google button{
     padding: 10px;
     color:black;
-    border:none;
+    border:1px solid #c9c9c9;
+    display:inline-blo ;
+    transition: all 0.3s;
     background-color: rgb(245, 243, 243);
+    font-size: 15px;
+
 }
