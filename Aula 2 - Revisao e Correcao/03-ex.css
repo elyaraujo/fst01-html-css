@@ -1,0 +1,39 @@
+body {
+    padding: 30px;
+}
+
+.buscar {
+    padding: 10px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+    display: block;
+}
+
+.pesquisa {
+    display: block;
+    width: 400px;
+    padding: 8px 8px 8px 15px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 25%);
+    border-radius: 31px;
+    margin-top: 20px;
+}
+
+.cadastro-linkedin {
+    margin-top: 60px;
+}
+
+.cadastro-linkedin label {
+    font-family: Arial;
+    display: block;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.cadastro-linkedin input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+

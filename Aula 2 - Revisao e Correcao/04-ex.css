@@ -1,0 +1,25 @@
+body {
+    /* padding: 50px; */
+}
+
+.cadastro {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.cadastro input {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#txtEmail {
+    /* display: block; */
+    width: 300px;
+}
+
+.cadastro button {
+    width: 300px;
+}

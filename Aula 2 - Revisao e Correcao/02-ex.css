@@ -1,0 +1,23 @@
+html {
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+}
+
+.exercicio-a {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.exercicio-b, .exercicio-c {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.exercicio-c {
+    border-radius: 50%;
+}

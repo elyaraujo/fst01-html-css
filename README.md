@@ -1,1 +1,1 @@
-Repositório de códigos desenvolvidos no curso Javascript Full Stack
+# fst01-html-css

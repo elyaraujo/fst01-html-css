@@ -1,0 +1,43 @@
+.google {
+    width: 80%;
+    /* min-width: 400px; */
+    margin: 100px auto;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.google img {
+    width: 300px;
+}
+
+.google form input {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 25%);
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.google form input:focus {
+    border: none;
+    outline: 0;
+}
+
+.google form button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.google form button:hover {
+    border: 1px solid #2f2f2f;
+    background-color: #2f2f2f;
+    color: white;
+}

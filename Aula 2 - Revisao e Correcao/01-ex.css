@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.titulo {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.subtitulo {
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: normal;
+    color: gray;
+    margin-top: 5px;
+}
+
+.texto {
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 350px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 18px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
